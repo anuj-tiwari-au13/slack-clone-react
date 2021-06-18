@@ -1,0 +1,32 @@
+THE SLACK CLONE APP
+************************************************************************************************
+STEPS:
+1--> BUILD THE ARCHITECTURE
+        -----> always structure your things in rows and columns
+        
+
+2--> CREATE REACT PROJECT INSTALL DEPENDENCIES
+     npm install react-router-dom   
+     wewill be using styled components -> npm i style-components
+
+
+     after login in via google, whn we refresh we again have to sign in , boz state memory gets lost. to avaoid this we have to store user info in other storage.
+     here we are trying local storage of browser
+
+
+
+  *****  OnSnapshot is for ?? snapshot is for ??
+     ---> You can listen to a document with the onSnapshot() method. 
+          An initial call using the callback you provide creates a document snapshot immediately with the current contents of the single document. 
+          Then, each time the contents change, another call updates the document snapshot.
+
+    ----> simply to say ---> snapshot is the data of that channel at particular date and time.
+
+
+
+
+3 ------> it is hosted on firebase
+
+------------------>if  "firebase login" dont work for you, use "firebase login --interactive"  , it works 
+---> firebase init
+----> 
